@@ -23,9 +23,8 @@ namespace WPF_GIT_4E
         public MainWindow()
         {
             InitializeComponent();
-
         }
-
+//Button per la stampa
         private void btn_stampa_Click(object sender, RoutedEventArgs e)
         {
             lbl_stampa.Content = "Hello world";
